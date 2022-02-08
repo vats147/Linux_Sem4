@@ -11,11 +11,11 @@ echo "press 5. for pwd"
 echo "press 6. for exit"
 read num
 case $num in
-	1) echo  `ls -l`;;
-	2) echo `date`;;
-	3) echo `cal`;;
-	4) echo `who`;;
-	5) echo `pwd`;;
+	1) ls -l;;
+	2) date;;
+	3) cal;;
+	4)who;;
+	5) pwd;;
 	6);;	
 	*)echo " invalid choice";;
 esac
